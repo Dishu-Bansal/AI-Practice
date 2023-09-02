@@ -38,7 +38,7 @@ def predict(X, W1, b1, W2, b2):
 
 
 def derivative_w2(Z, T, Y):
-    # Z is (N, M)
+    # Z is (N, M) 
     return (T - Y).dot(Z)
 
 def derivative_b2(T, Y):
