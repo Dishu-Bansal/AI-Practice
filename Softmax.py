@@ -14,7 +14,7 @@ expA = np.exp(A)
 
 Answer = expA / expA.sum()
 
-print(answer.sum())
+print(answer.sum()) 
 
 answer = expA / expA.sum(axis=1, keepdims=True)
 
