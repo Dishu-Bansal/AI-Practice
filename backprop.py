@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 import matplotlib.pyplot as plt
 
 def forward(X, w1, b1, w2, b2):
